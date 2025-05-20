@@ -1,0 +1,6 @@
+@SearchingService_POC_c__HostAddress = http://localhost:5217
+
+GET {{SearchingService_POC_c__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

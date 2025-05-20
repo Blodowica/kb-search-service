@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  searchingservicepocc:
+    image: ${DOCKER_REGISTRY-}searchingservicepocc
+    build:
+      context: .
+      dockerfile: SearchingService POC c#/Dockerfile
