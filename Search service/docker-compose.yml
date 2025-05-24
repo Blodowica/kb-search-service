@@ -4,4 +4,4 @@ services:
     image: ${DOCKER_REGISTRY-}searchingservicepocc
     build:
       context: .
-      dockerfile: SearchingService POC c#/Dockerfile
+      dockerfile: SearchingServicePOCc/Dockerfile
